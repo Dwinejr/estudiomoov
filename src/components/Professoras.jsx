@@ -1,46 +1,64 @@
 import React from 'react';
 
 function Professoras() {
-  // Placeholder data, will be updated when all texts are received
-  const professorasData = [
-    {
-      nome: 'Karen Lima',
-      texto: 'Apaixonada por ensinar e desafios físicos, conheceu o Pole Dance há 12 anos. Após cursos de capacitação com grandes nomes, cursou Educação Física na Unicamp (licenciatura e bacharelado, 2020), com pesquisa na modalidade. Desde então, segue se especializando para aprimorar seu ensino. Sua maior satisfação é ver a autoestima de suas alunas crescer.',
-    },
-    {
-      nome: 'Giulia Bassani',
-      texto: 'Texto a ser desenvolvido ainda...'
-    },
-    {
-      nome: 'Barbara Alves',
-      texto: 'Texto a ser desenvolvido ainda...'
-    },
-    {
-      nome: 'Marília Japa',
-      texto: 'Texto a ser desenvolvido ainda...'
-    }
-  ];
-
   return (
-    <section id="professoras" className="py-16 px-4 md:px-8 bg-[#FCECC9]">
-      <div className="container mx-auto max-w-6xl text-center">
-        <h2 className="text-4xl font-bold mb-12 text-[#E4670D]">Nossas Professoras</h2>
-        <div className="space-y-8">
-          {professorasData.map(prof => (
-            <div key={prof.nome} className="bg-white p-6 rounded-lg shadow-lg text-left transform hover:scale-105 transition-transform duration-300 flex items-center gap-6">
-              <div className="w-32 h-32 flex-shrink-0">
-                <img 
-                  src="/assets/placeholder-professora.svg" 
-                  alt={`Foto de ${prof.nome}`}
-                  className="w-full h-full object-cover rounded-full border-4 border-[#E4670D]"
-                />
-              </div>
-              <div className="flex-grow">
-                <h3 className="text-2xl font-semibold mb-3 text-[#445E93]">{prof.nome}</h3>
-                <p className="text-[#260C1A] leading-relaxed">{prof.texto}</p>
-              </div>
+    <section id="professoras" className="py-16 px-4 md:px-8 bg-[#121212]">
+      <div className="container mx-auto max-w-6xl">
+        <h2 className="text-4xl font-bold mb-12 text-center text-[#E4670D]">Nossas Professoras</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {/* Jessica */}
+          <div className="bg-[#1E1E1E] rounded-lg overflow-hidden shadow-xl border-2 border-[#E4670D]">
+            <div className="aspect-w-1 aspect-h-1">
+              <img
+                src="/assets/jessica.jpg"
+                alt="Jessica Tancredi"
+                className="object-cover w-full h-full"
+              />
             </div>
-          ))}
+            <div className="p-6">
+              <h3 className="text-2xl font-bold mb-2 text-[#E4670D]">Jessica Tancredi</h3>
+              <p className="text-[#E4670D] font-semibold mb-4">Pole Dance e Aéreos</p>
+              <p className="text-gray-300">
+                Fundadora do MOOV, especialista em Pole Dance e Aéreos com mais de 15 anos de experiência.
+              </p>
+            </div>
+          </div>
+
+          {/* Maria */}
+          <div className="bg-[#1E1E1E] rounded-lg overflow-hidden shadow-xl border-2 border-[#E4670D]">
+            <div className="aspect-w-1 aspect-h-1">
+              <img
+                src="/assets/maria.jpg"
+                alt="Maria Silva"
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="p-6">
+              <h3 className="text-2xl font-bold mb-2 text-[#E4670D]">Maria Silva</h3>
+              <p className="text-[#E4670D] font-semibold mb-4">Tecido Acrobático</p>
+              <p className="text-gray-300">
+                Especialista em Tecido Acrobático e Circo Contemporâneo.
+              </p>
+            </div>
+          </div>
+
+          {/* Ana */}
+          <div className="bg-[#1E1E1E] rounded-lg overflow-hidden shadow-xl border-2 border-[#E4670D]">
+            <div className="aspect-w-1 aspect-h-1">
+              <img
+                src="/assets/ana.jpg"
+                alt="Ana Santos"
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="p-6">
+              <h3 className="text-2xl font-bold mb-2 text-[#E4670D]">Ana Santos</h3>
+              <p className="text-[#E4670D] font-semibold mb-4">Circo Infantil</p>
+              <p className="text-gray-300">
+                Pedagoga especializada em artes circenses para crianças.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
