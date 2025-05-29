@@ -4,7 +4,7 @@ function Espaco() {
   return (
     <section id="espaco" className="py-16 px-4 md:px-8 bg-[#121212]">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 pt-8">
           <h2 className="text-4xl font-bold mb-4 text-[#E4670D]">Nosso Espaço</h2>
           <p className="text-lg text-gray-300">
             Um ambiente moderno e acolhedor para suas práticas
@@ -47,28 +47,28 @@ function Espaco() {
           <div className="grid grid-cols-2 gap-4">
             <div className="aspect-w-1 aspect-h-1 rounded-lg overflow-hidden shadow-xl border-2 border-[#E4670D]">
               <img
-                src="/assets/espaco1.jpg"
+                src="/assets/espaco1.png"
                 alt="Sala de aula"
                 className="object-cover w-full h-full"
               />
             </div>
             <div className="aspect-w-1 aspect-h-1 rounded-lg overflow-hidden shadow-xl border-2 border-[#E4670D]">
               <img
-                src="/assets/espaco2.jpg"
+                src="/assets/espaco2.png"
                 alt="Equipamentos"
                 className="object-cover w-full h-full"
               />
             </div>
             <div className="aspect-w-1 aspect-h-1 rounded-lg overflow-hidden shadow-xl border-2 border-[#E4670D]">
               <img
-                src="/assets/espaco3.jpg"
+                src="/assets/espaco3.png"
                 alt="Vestuário"
                 className="object-cover w-full h-full"
               />
             </div>
             <div className="aspect-w-1 aspect-h-1 rounded-lg overflow-hidden shadow-xl border-2 border-[#E4670D]">
               <img
-                src="/assets/espaco4.jpg"
+                src="/assets/espaco4.png"
                 alt="Área de convivência"
                 className="object-cover w-full h-full"
               />

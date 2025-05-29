@@ -4,7 +4,7 @@ function Sobre() {
   return (
     <section id="sobre" className="py-16 px-4 md:px-8 bg-[#121212]">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 pt-8">
           <h2 className="text-4xl font-bold mb-4 text-[#E4670D]">Sobre o MOOV</h2>
           <p className="text-lg text-gray-300">
             Um espaço dedicado à arte, movimento e bem-estar
@@ -38,7 +38,7 @@ function Sobre() {
           <div className="relative">
             <div className="aspect-w-4 aspect-h-3 rounded-lg overflow-hidden shadow-xl border-2 border-[#E4670D]">
               <img
-                src="/assets/sobre.jpg"
+                src="/assets/sobre.png"
                 alt="Estúdio MOOV"
                 className="object-cover w-full h-full"
               />

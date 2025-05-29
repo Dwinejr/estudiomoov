@@ -4,7 +4,7 @@ function Valores() {
   return (
     <section id="valores" className="py-16 px-4 md:px-8 bg-[#121212]">
       <div className="container mx-auto max-w-4xl text-center">
-        <h2 className="text-4xl font-bold text-[#E4670D] mb-8">Valores 2025</h2>
+        <h2 className="text-4xl font-bold text-[#E4670D] mb-8 pt-8">Valores</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
           {/* Modalidades */}
           <div className="bg-[#1E1E1E] p-6 rounded-lg shadow-md border-2 border-[#E4670D] flex flex-col justify-center">

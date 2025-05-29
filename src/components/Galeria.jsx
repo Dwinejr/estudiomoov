@@ -11,9 +11,9 @@ function Galeria() {
   ];
 
   return (
-    <section id="galeria" className="py-16 px-4 md:px-8 bg-[#FCECC9]">
+    <section id="galeria" className="py-16 px-4 md:px-8 bg-[#121212]">
       <div className="container mx-auto max-w-6xl text-center">
-        <h2 className="text-4xl font-bold mb-12 text-[#E4670D]">Galeria de Fotos</h2>
+        <h2 className="text-4xl font-bold mb-12 text-[#E4670D] pt-8">Galeria de Fotos</h2>
         {images.length > 0 ? (
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {images.map((imgSrc, index) => (

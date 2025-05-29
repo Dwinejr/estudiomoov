@@ -23,7 +23,7 @@ function Contato() {
   return (
     <section id="contato" className="py-16 px-4 md:px-8 bg-[#121212]">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-4xl font-bold mb-12 text-center text-[#E4670D]">Entre em Contato</h2>
+        <h2 className="text-4xl font-bold mb-12 text-center text-[#E4670D] pt-8">Entre em Contato</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
           {/* Contact Info & Map */}
           <div className="space-y-6 text-gray-300">
