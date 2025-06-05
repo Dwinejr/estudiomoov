@@ -5,22 +5,13 @@ function Empresas() {
   const [mediaItems, setMediaItems] = useState([]);
 
   useEffect(() => {
-    // Ordenar mídia: vídeos primeiro, depois imagens
     const videos = [
       '/assets/empresas/video1.mp4',
       '/assets/empresas/video2.mp4',
-      '/assets/empresas/video3.mp4',
-      '/assets/empresas/video4.mp4',
+      '/assets/empresas/video3.mp4'
     ];
     
-    const images = [
-      '/assets/empresas/foto1.jpg',
-      '/assets/empresas/foto2.jpg',
-      '/assets/empresas/foto3.jpg',
-      '/assets/empresas/foto4.jpg',
-    ];
-
-    setMediaItems([...videos, ...images]);
+    setMediaItems(videos);
   }, []);
 
   const nextSlide = () => {

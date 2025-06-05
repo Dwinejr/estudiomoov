@@ -37,7 +37,7 @@ function Professoras() {
               <h3 className="text-2xl font-bold mb-2 text-[#E4670D]">Giulia Bassani</h3>
               <p className="text-[#E4670D] font-semibold mb-4">Tecido Acrobático, Circo e Aéreos</p>
               <p className="text-gray-300">
-                [Texto descritivo da Giulia]
+                Apaixonada por ensinar e pelos desafios das artes circenses, Giulia Bassani atua há mais de 10 anos no universo dos aparelhos aéreos, como tecido acrobático, lira e trapézio. Formada em Educação Física pela UNESP, alia sua formação acadêmica à vivência prática para oferecer aulas seguras, dinâmicas e acolhedoras. Está sempre em busca de novos conhecimentos para aprimorar seu ensino e incentivar cada aluna a superar seus próprios limites, desenvolvendo força, técnica e confiança no ar.
               </p>
             </div>
           </div>
@@ -47,15 +47,15 @@ function Professoras() {
             <div className="aspect-w-1 aspect-h-1">
               <img
                 src="/assets/marilia.jpg"
-                alt="Marília Japa"
+                alt="Marília Yasuda"
                 className="object-cover w-full h-full"
               />
             </div>
             <div className="p-6">
-              <h3 className="text-2xl font-bold mb-2 text-[#E4670D]">Marília Japa</h3>
+              <h3 className="text-2xl font-bold mb-2 text-[#E4670D]">Marília Yasuda</h3>
               <p className="text-[#E4670D] font-semibold mb-4">Pole Dance, Pole Fit</p>
               <p className="text-gray-300">
-                [Texto descritivo da Marília]
+                Marília Yasuda é advogada e apaixonada pelo universo do Pole Dance, no qual atua há mais de 10 anos como aluna. Agora, assume também o papel de professora no Moov, unindo sua experiência prática à dedicação em compartilhar conhecimento. Sempre em busca de evolução, acredita que o Pole é uma poderosa ferramenta de desenvolvimento físico, expressão e superação pessoal.
               </p>
             </div>
           </div>
@@ -64,16 +64,16 @@ function Professoras() {
           <div className="bg-[#1E1E1E] rounded-lg overflow-hidden shadow-xl border-2 border-[#E4670D]">
             <div className="aspect-w-1 aspect-h-1">
               <img
-                src="/assets/babara.jpg"
-                alt="Bábara Soares"
+                src="/assets/barbara.jpg"
+                alt="Bábara Medeiros"
                 className="object-cover w-full h-full"
               />
             </div>
             <div className="p-6">
-              <h3 className="text-2xl font-bold mb-2 text-[#E4670D]">Bábara Soares</h3>
+              <h3 className="text-2xl font-bold mb-2 text-[#E4670D]">Bárbara Medeiros</h3>
               <p className="text-[#E4670D] font-semibold mb-4">Pole Dance, Pole Fit, Pole Coreo</p>
               <p className="text-gray-300">
-                [Texto descritivo da Bábara]
+                Bárbara Medeiros é instrutora de Pole Dance há mais de 8 anos, com uma trajetória marcada pela paixão pelo movimento, pela dança e pela expressão corporal. Encantada pelo universo do Pole Coreo, traz para suas aulas uma proposta que une técnica, musicalidade e fluidez. Seu objetivo é proporcionar um espaço onde cada aluna possa explorar seu próprio estilo, se desafiar e se divertir através da dança no pole.
               </p>
             </div>
           </div>

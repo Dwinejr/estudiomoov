@@ -23,15 +23,23 @@ function Espaco() {
               </li>
               <li className="flex items-center">
                 <span className="text-[#E4670D] mr-2">•</span>
-                Equipamentos de alta qualidade
+                Equipamentos de alta qualidade, incluindo 4 tecidos acrobáticos, duas liras, trapézio e colchões de segurança
               </li>
               <li className="flex items-center">
                 <span className="text-[#E4670D] mr-2">•</span>
-                Vestuários completos
+                Para o pole dance, contamos com 5 barras fixas que podem ser configuradas como giratórias
               </li>
               <li className="flex items-center">
                 <span className="text-[#E4670D] mr-2">•</span>
-                Área de convivência
+                Muitos espelhos nas paredes, proporcionando um ambiente perfeito para a prática do pole dance
+              </li>
+              <li className="flex items-center">
+                <span className="text-[#E4670D] mr-2">•</span>
+                3 banheiros completos
+              </li>
+              <li className="flex items-center">
+                <span className="text-[#E4670D] mr-2">•</span>
+                Área de espera e recepção
               </li>
             </ul>
             <div className="flex flex-col md:flex-row gap-4">
@@ -44,35 +52,9 @@ function Espaco() {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
-            <div className="aspect-w-1 aspect-h-1 rounded-lg overflow-hidden shadow-xl border-2 border-[#E4670D]">
-              <img
-                src="/assets/espaco1.png"
-                alt="Sala de aula"
-                className="object-cover w-full h-full"
-              />
-            </div>
-            <div className="aspect-w-1 aspect-h-1 rounded-lg overflow-hidden shadow-xl border-2 border-[#E4670D]">
-              <img
-                src="/assets/espaco2.png"
-                alt="Equipamentos"
-                className="object-cover w-full h-full"
-              />
-            </div>
-            <div className="aspect-w-1 aspect-h-1 rounded-lg overflow-hidden shadow-xl border-2 border-[#E4670D]">
-              <img
-                src="/assets/espaco3.png"
-                alt="Vestuário"
-                className="object-cover w-full h-full"
-              />
-            </div>
-            <div className="aspect-w-1 aspect-h-1 rounded-lg overflow-hidden shadow-xl border-2 border-[#E4670D]">
-              <img
-                src="/assets/espaco4.png"
-                alt="Área de convivência"
-                className="object-cover w-full h-full"
-              />
-            </div>
+          <div className="flex flex-col items-center space-y-8">
+            <img src="/assets/espaco01.jpg" alt="Espaço 1" className="w-full max-w-2xl rounded-lg shadow-lg" />
+            <img src="/assets/espaco02.jpg" alt="Espaço 2" className="w-full max-w-2xl rounded-lg shadow-lg" />
           </div>
         </div>
       </div>
