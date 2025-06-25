@@ -23,8 +23,8 @@ function Header() {
         <a href="#espaco" className="hover:text-[#2A2A2A] uppercase font-semibold transition-colors duration-300">O Espaço</a>
         <a href="#empresas" className="hover:text-[#2A2A2A] uppercase font-semibold transition-colors duration-300">Empresas</a>
         <a href="#aulas" className="hover:text-[#2A2A2A] uppercase font-semibold transition-colors duration-300">Aulas</a>
+        <a href="#grade-horarios" className="hover:text-[#2A2A2A] uppercase font-semibold transition-colors duration-300">Horários</a>
         <a href="#valores" className="hover:text-[#2A2A2A] uppercase font-semibold transition-colors duration-300">Valores</a>
-        <a href="#galeria" className="hover:text-[#2A2A2A] uppercase font-semibold transition-colors duration-300">Galeria</a>
         <a href="#contato" className="hover:text-[#2A2A2A] uppercase font-semibold transition-colors duration-300">Contato</a>
         <a
           href="https://www.instagram.com/estudio_moov/"
@@ -69,8 +69,8 @@ function Header() {
             <a href="#espaco" onClick={toggleMobileMenu} className="hover:text-[#2A2A2A] uppercase font-semibold text-center transition-colors duration-300">O Espaço</a>
             <a href="#empresas" onClick={toggleMobileMenu} className="hover:text-[#2A2A2A] uppercase font-semibold text-center transition-colors duration-300">Empresas</a>
             <a href="#aulas" onClick={toggleMobileMenu} className="hover:text-[#2A2A2A] uppercase font-semibold text-center transition-colors duration-300">Aulas</a>
+            <a href="#grade-horarios" onClick={toggleMobileMenu} className="hover:text-[#2A2A2A] uppercase font-semibold text-center transition-colors duration-300">Horários</a>
             <a href="#valores" onClick={toggleMobileMenu} className="hover:text-[#2A2A2A] uppercase font-semibold text-center transition-colors duration-300">Valores</a>
-            <a href="#galeria" onClick={toggleMobileMenu} className="hover:text-[#2A2A2A] uppercase font-semibold text-center transition-colors duration-300">Galeria</a>
             <a href="#contato" onClick={toggleMobileMenu} className="hover:text-[#2A2A2A] uppercase font-semibold text-center transition-colors duration-300">Contato</a>
             
             {/* Social Media Icons */}

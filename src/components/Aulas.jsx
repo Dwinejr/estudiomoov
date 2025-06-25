@@ -26,21 +26,14 @@ function Aulas({ openModal }) {
           <div className="p-8 md:p-12">
             <h3 className="text-3xl font-bold mb-6 text-[#E4670D]">POLE DANCE</h3>
             <p className="text-lg mb-8 text-gray-300">
-              Pole Dance é nossa especialidade! E pra você ter uma experiência completa dessa atividade, nós oferecemos 4 estilos dentro do universo pole dance:
+              Pole Dance é nossa especialidade! E pra você ter uma experiência completa dessa atividade, nós oferecemos 3 estilos dentro do universo pole dance:
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-[#2A2A2A] p-6 rounded-xl transform hover:scale-105 transition-transform duration-300 border border-[#E4670D]">
                 <h4 className="text-2xl font-semibold mb-4 text-[#E4670D]">Pole Dance Fitness (Pole Fit)</h4>
                 <p className="text-gray-300">
                   Com foco em fortalecimento e tônus muscular, nessa aula vc aprende a tecnica dos movimentos como giros, figuras de força e flex, inversões, além de exercícios de fortalecimento e flexibilidade.
-                </p>
-              </div>
-
-              <div className="bg-[#2A2A2A] p-6 rounded-xl transform hover:scale-105 transition-transform duration-300 border border-[#E4670D]">
-                <h4 className="text-2xl font-semibold mb-4 text-[#E4670D]">Pole Dance Spin (Pole Spin)</h4>
-                <p className="text-gray-300">
-                  Você sabia que os poles podem ser fixos e giratórios? Essa aula é sobre desbravar a barra giratória e ter a chance de se sentir confiante nela.
                 </p>
               </div>
 
