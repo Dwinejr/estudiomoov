@@ -27,7 +27,7 @@ function Espaco() {
               </li>
               <li className="flex items-center">
                 <span className="text-[#E4670D] mr-2">•</span>
-                Para o pole dance, contamos com 5 barras fixas que podem ser configuradas como giratórias
+                Para o pole dance, contamos com 5 barras fixas que podem ser configuradas como giratórias, além de um palco móvel
               </li>
               <li className="flex items-center">
                 <span className="text-[#E4670D] mr-2">•</span>
