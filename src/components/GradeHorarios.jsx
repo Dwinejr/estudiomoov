@@ -58,7 +58,7 @@ function GradeHorarios() {
     },
     {
       horario: '19h30',
-      segunda: 'Pole',
+      segunda: 'Pole Coreo',
       terca: 'Tecido / Pole',
       quarta: 'Pole',
       quinta: 'Lira e Trapézio / Pole Fit',
@@ -68,9 +68,9 @@ function GradeHorarios() {
     {
       horario: '20h30',
       segunda: '',
-      terca: 'Jazz Funk/Flex',
+      terca: 'Flex',
       quarta: 'Pole Heels',
-      quinta: 'Jazz Funk/Flex',
+      quinta: 'Flex',
       sexta: '',
       sabado: ''
     }
@@ -92,7 +92,7 @@ function GradeHorarios() {
     let aulaFormatada = aula;
     
     // Substituir "Pole" por "Pole Fit" (exceto quando já é "Pole Fit" ou "Pole Heels")
-    if (aula.includes('Pole') && !aula.includes('Pole Fit') && !aula.includes('Pole Heels')) {
+    if (aula.includes('Pole') && !aula.includes('Pole Fit') && !aula.includes('Pole Coreo') && !aula.includes('Pole Heels')) {
       aulaFormatada = aula.replace(/Pole/g, 'Pole Fit');
     }
     

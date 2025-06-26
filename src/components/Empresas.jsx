@@ -1,8 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
+import { VideoBackgroundLoadedContext } from '../App';
 
 function Empresas() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [mediaItems, setMediaItems] = useState([]);
+  const [videoLoaded, setVideoLoaded] = useState(true);
+  const videoBgLoaded = useContext(VideoBackgroundLoadedContext);
+  const [preloadStates, setPreloadStates] = useState(['none', 'none', 'none']);
 
   useEffect(() => {
     const videos = [
@@ -13,6 +17,22 @@ function Empresas() {
     
     setMediaItems(videos);
   }, []);
+
+  // Controla a ordem de preload
+  useEffect(() => {
+    if (videoBgLoaded) {
+      setPreloadStates(['auto', 'none', 'none']);
+    }
+  }, [videoBgLoaded]);
+
+  const handleVideoLoaded = (idx) => {
+    setVideoLoaded(true);
+    setPreloadStates((prev) => {
+      const next = [...prev];
+      if (idx + 1 < next.length) next[idx + 1] = 'auto';
+      return next;
+    });
+  };
 
   const nextSlide = () => {
     setCurrentIndex((prevIndex) => 
@@ -103,21 +123,33 @@ function Empresas() {
             {mediaItems.length > 0 && (
               <>
                 {isVideo(mediaItems[currentIndex]) ? (
-                  <video
-                    key={mediaItems[currentIndex]}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    className="w-full h-full object-cover"
-                  >
-                    <source src={mediaItems[currentIndex]} type="video/mp4" />
-                  </video>
+                  <div className="w-full h-full relative">
+                    {!videoLoaded && (
+                      <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-60 z-20">
+                        <span className="text-white text-xl animate-pulse">Carregando vídeo...</span>
+                      </div>
+                    )}
+                    <video
+                      key={mediaItems[currentIndex]}
+                      autoPlay
+                      loop
+                      muted
+                      playsInline
+                      preload={preloadStates[currentIndex]}
+                      onCanPlayThrough={() => handleVideoLoaded(currentIndex)}
+                      onLoadStart={() => setVideoLoaded(false)}
+                      className="w-full h-full object-cover"
+                      style={{ opacity: videoLoaded ? 1 : 0, transition: 'opacity 0.5s' }}
+                    >
+                      <source src={mediaItems[currentIndex]} type="video/mp4" />
+                    </video>
+                  </div>
                 ) : (
                   <img
                     src={mediaItems[currentIndex]}
                     alt="Atividade MOOV"
                     className="w-full h-full object-cover"
+                    onLoad={() => setVideoLoaded(true)}
                   />
                 )}
                 
