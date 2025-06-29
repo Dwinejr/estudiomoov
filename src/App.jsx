@@ -10,19 +10,20 @@ import Contato from './components/Contato';
 import WhatsappButton from './components/WhatsappButton';
 import Valores from './components/Valores';
 import Empresas from './components/Empresas';
+import { getAssetPath } from './lib/utils';
 
 export const VideoBackgroundLoadedContext = createContext(false);
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [modalImage, setModalImage] = useState('/assets/pole-vestir.png');
+  const [modalImage, setModalImage] = useState(getAssetPath('/assets/pole-vestir.png'));
   const [isHorariosModalOpen, setIsHorariosModalOpen] = useState(false);
   const [professoraSelecionada, setProfessoraSelecionada] = useState('');
   const [horariosSelecionados, setHorariosSelecionados] = useState({});
   const [videoLoaded, setVideoLoaded] = useState(false);
   
   const openModal = (imagePath) => {
-    setModalImage(imagePath);
+    setModalImage(getAssetPath(imagePath));
     setIsModalOpen(true);
   };
   
@@ -67,7 +68,7 @@ function App() {
                 className="absolute inset-0 w-full h-full object-cover"
                 style={{ opacity: videoLoaded ? 1 : 0, transition: 'opacity 0.5s' }}
               >
-                <source src="/assets/background.mp4" type="video/mp4" />
+                <source src={getAssetPath('/assets/background.mp4')} type="video/mp4" />
               </video>
             </div>
             
@@ -78,13 +79,13 @@ function App() {
             <div className="relative z-10 flex flex-col items-center justify-center min-h-screen mt-4">
               {/* Animated Logo */}
               <img 
-                src="/assets/rosa.svg" 
+                src={getAssetPath('/assets/rosa.svg')} 
                 alt="MOOV Logo" 
                 className="w-72 h-72 mb-8 animate-spin-slow"
               />
               
               <img 
-                src="/assets/moovText.svg" 
+                src={getAssetPath('/assets/moovText.svg')} 
                 alt="MOOV" 
                 className="h-20 mb-4 drop-shadow-lg"
               />

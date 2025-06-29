@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { getAssetPath } from '../lib/utils';
 
 function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -12,7 +13,7 @@ function Header() {
       {/* Logo */}
       <div className="flex items-center">
         <a href="#home" className="hover:opacity-80 transition-opacity duration-300">
-          <img src="/assets/logoBranco.svg" alt="Estúdio Moov Logo" className="h-12 mr-2" />
+          <img src={getAssetPath('/assets/logoBranco.svg')} alt="Estúdio Moov Logo" className="h-12 mr-2" />
         </a>
       </div>
       
