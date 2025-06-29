@@ -6,8 +6,8 @@ function GradeHorarios() {
       horario: '08h00',
       segunda: 'Pole',
       terca: 'Treinamento Funcional',
-      quarta: 'Pole',
-      quinta: 'Treinamento Funcional',
+      quarta: '',
+      quinta: 'Pole',
       sexta: '',
       sabado: 'Circo (Aéreos)'
     },
@@ -53,7 +53,7 @@ function GradeHorarios() {
       terca: 'Acrobacia de Solo / Pole',
       quarta: '',
       quinta: 'Tecido / Pole',
-      sexta: 'Treinamento Funcional',
+      sexta: 'Circo (Aéreos)',
       sabado: ''
     },
     {
@@ -62,12 +62,12 @@ function GradeHorarios() {
       terca: 'Tecido / Pole',
       quarta: 'Pole',
       quinta: 'Lira e Trapézio / Pole Fit',
-      sexta: 'Circo (Aéreos)',
+      sexta: '',
       sabado: ''
     },
     {
       horario: '20h30',
-      segunda: '',
+      segunda: 'Pole Coreo',
       terca: 'Flex',
       quarta: 'Pole Heels',
       quinta: 'Flex',

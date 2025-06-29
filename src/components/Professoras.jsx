@@ -43,10 +43,10 @@ function Professoras({ openHorariosModal }) {
         { horario: '08:00', nome: 'Pole Fit' }
       ],
       terca: [],
-      quarta: [
+      quarta: [],
+      quinta: [
         { horario: '08:00', nome: 'Pole Fit' }
       ],
-      quinta: [],
       sexta: [],
       sabado: []
     },
