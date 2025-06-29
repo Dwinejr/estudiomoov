@@ -1,4 +1,5 @@
 import React from 'react';
+import { getAssetPath } from '../lib/utils';
 
 function Sobre() {
   return (
@@ -38,7 +39,7 @@ function Sobre() {
           <div className="relative">
             <div className="aspect-w-4 aspect-h-3 rounded-lg overflow-hidden shadow-xl border-2 border-[#E4670D]">
               <img
-                src="/assets/sobre.png"
+                src={getAssetPath('/assets/sobre.png')}
                 alt="Estúdio MOOV"
                 className="object-cover w-full h-full"
               />

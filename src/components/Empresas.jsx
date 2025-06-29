@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { VideoBackgroundLoadedContext } from '../App';
+import { getAssetPath } from '../lib/utils';
 
 function Empresas() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -10,9 +11,9 @@ function Empresas() {
 
   useEffect(() => {
     const videos = [
-      '/assets/empresas/video1.mp4',
-      '/assets/empresas/video2.mp4',
-      '/assets/empresas/video3.mp4'
+      getAssetPath('/assets/empresas/video1.mp4'),
+      getAssetPath('/assets/empresas/video2.mp4'),
+      getAssetPath('/assets/empresas/video3.mp4')
     ];
     
     setMediaItems(videos);

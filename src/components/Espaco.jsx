@@ -1,4 +1,5 @@
 import React from 'react';
+import { getAssetPath } from '../lib/utils';
 
 function Espaco() {
   return (
@@ -49,8 +50,8 @@ function Espaco() {
           </div>
 
           <div className="flex flex-col items-center space-y-8">
-            <img src="/assets/espaco01.jpg" alt="Espaço 1" className="w-full max-w-2xl rounded-lg shadow-lg" />
-            <img src="/assets/espaco02.jpg" alt="Espaço 2" className="w-full max-w-2xl rounded-lg shadow-lg" />
+            <img src={getAssetPath('/assets/espaco01.jpg')} alt="Espaço 1" className="w-full max-w-2xl rounded-lg shadow-lg" />
+            <img src={getAssetPath('/assets/espaco02.jpg')} alt="Espaço 2" className="w-full max-w-2xl rounded-lg shadow-lg" />
           </div>
         </div>
       </div>

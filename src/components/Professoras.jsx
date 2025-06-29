@@ -1,4 +1,5 @@
 import React from 'react';
+import { getAssetPath } from '../lib/utils';
 
 function Professoras({ openHorariosModal }) {
   // Dados dos horários das professoras
@@ -90,7 +91,7 @@ function Professoras({ openHorariosModal }) {
           <div className="bg-[#1E1E1E] rounded-lg overflow-hidden shadow-xl border-2 border-[#E4670D]">
             <div className="aspect-w-1 aspect-h-1">
               <img
-                src="/assets/karen.jpg"
+                src={getAssetPath('/assets/karen.jpg')}
                 alt="Karen Lima"
                 className="object-cover w-full h-full"
               />
@@ -114,7 +115,7 @@ function Professoras({ openHorariosModal }) {
           <div className="bg-[#1E1E1E] rounded-lg overflow-hidden shadow-xl border-2 border-[#E4670D]">
             <div className="aspect-w-1 aspect-h-1">
               <img
-                src="/assets/giulia.jpg"
+                src={getAssetPath('/assets/giulia.jpg')}
                 alt="Giulia Bassani"
                 className="object-cover w-full h-full"
               />
@@ -138,7 +139,7 @@ function Professoras({ openHorariosModal }) {
           <div className="bg-[#1E1E1E] rounded-lg overflow-hidden shadow-xl border-2 border-[#E4670D]">
             <div className="aspect-w-1 aspect-h-1">
               <img
-                src="/assets/marilia.jpg"
+                src={getAssetPath('/assets/marilia.jpg')}
                 alt="Marília Yasuda"
                 className="object-cover w-full h-full"
               />
@@ -162,7 +163,7 @@ function Professoras({ openHorariosModal }) {
           <div className="bg-[#1E1E1E] rounded-lg overflow-hidden shadow-xl border-2 border-[#E4670D]">
             <div className="aspect-w-1 aspect-h-1">
               <img
-                src="/assets/barbara.jpg"
+                src={getAssetPath('/assets/barbara.jpg')}
                 alt="Bábara Medeiros"
                 className="object-cover w-full h-full"
               />
