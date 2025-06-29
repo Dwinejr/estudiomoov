@@ -73,7 +73,7 @@ function Empresas() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#E4670D] mr-2">•</span>
-                  Workshops de circo e dança para integração de equipes
+                  Workshops de circo e dança
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#E4670D] mr-2">•</span>

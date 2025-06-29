@@ -31,7 +31,7 @@ function Aulas({ openModal }) {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-[#2A2A2A] p-6 rounded-xl transform hover:scale-105 transition-transform duration-300 border border-[#E4670D]">
-                <h4 className="text-2xl font-semibold mb-4 text-[#E4670D]">Pole Dance Fitness (Pole Fit)</h4>
+                <h4 className="text-2xl font-semibold mb-4 text-[#E4670D]">Pole Dance Fitness<br/> (Pole Fit)</h4>
                 <p className="text-gray-300">
                   Com foco em fortalecimento e tônus muscular, nessa aula vc aprende a tecnica dos movimentos como giros, figuras de força e flex, inversões, além de exercícios de fortalecimento e flexibilidade.
                 </p>

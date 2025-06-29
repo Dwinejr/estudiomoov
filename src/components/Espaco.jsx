@@ -19,7 +19,7 @@ function Espaco() {
             <ul className="space-y-4 text-gray-300">
               <li className="flex items-center">
                 <span className="text-[#E4670D] mr-2">•</span>
-                Salas amplas e climatizadas
+                Salas amplas e arejadas
               </li>
               <li className="flex items-center">
                 <span className="text-[#E4670D] mr-2">•</span>
@@ -28,10 +28,6 @@ function Espaco() {
               <li className="flex items-center">
                 <span className="text-[#E4670D] mr-2">•</span>
                 Para o pole dance, contamos com 6 barras fixas que podem ser configuradas como giratórias, além de um palco móvel
-              </li>
-              <li className="flex items-center">
-                <span className="text-[#E4670D] mr-2">•</span>
-                Muitos espelhos nas paredes, proporcionando um ambiente perfeito para a prática do pole dance
               </li>
               <li className="flex items-center">
                 <span className="text-[#E4670D] mr-2">•</span>

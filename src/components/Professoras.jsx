@@ -105,7 +105,7 @@ function Professoras({ openHorariosModal }) {
                 Ver Horários
               </button>
               <p className="text-gray-300">
-                Apaixonada por ensinar e desafios físicos, conheceu o Pole Dance há 12 anos. Após cursos de capacitação com grandes nomes, cursou Educação Física na Unicamp (licenciatura e bacharelado, 2020), com pesquisa na modalidade. Desde então, segue se especializando para aprimorar seu ensino. Sua maior satisfação é ver a autoestima de suas alunas crescer.
+                Pratica o Pole Dance desde 2012. Após cursos de capacitação com grandes nomes, cursou Educação Física na Unicamp (licenciatura e bacharelado, 2020), com pesquisa na modalidade. Desde então, segue se especializando para aprimorar seu ensino. Sua maior satisfação é ver a autoestima de suas alunas e alunos crescer.
               </p>
             </div>
           </div>

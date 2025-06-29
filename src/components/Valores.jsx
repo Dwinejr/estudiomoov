@@ -58,7 +58,7 @@ function Valores() {
         <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6 text-center">
           <div className="bg-[#1E1E1E] border-2 border-[#E4670D] p-4 rounded-lg shadow flex flex-col justify-center">
             <p className="font-semibold text-[#E4670D]">Aula Experimental</p>
-            <p className="text-lg text-gray-300">R$15</p>
+            <p className="text-lg text-gray-300">R$20</p>
           </div>
           <div className="bg-[#1E1E1E] border-2 border-[#E4670D] p-4 rounded-lg shadow flex flex-col justify-center">
             <p className="font-semibold text-[#E4670D]">Matrícula</p>
