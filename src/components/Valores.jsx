@@ -49,7 +49,7 @@ function Valores() {
                 <tr><td className="py-1">4 aulas/mês</td><td className="py-1 text-right">R$320</td></tr>
                 <tr><td className="py-1">6 aulas/mês</td><td className="py-1 text-right">R$460</td></tr>
                 <tr><td className="py-1">8 aulas/mês</td><td className="py-1 text-right">R$580</td></tr>
-                <tr><td className="py-1">12 aulas/mês</td><td className="py-1 text-right">R$ -</td></tr>
+              
               </tbody>
             </table>
           </div>

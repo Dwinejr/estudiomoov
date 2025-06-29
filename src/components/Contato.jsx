@@ -5,9 +5,9 @@ function Contato() {
   const form = useRef();
   const [modal, setModal] = useState({ open: false, success: false, message: '' });
   // Substitua pelos seus dados do EmailJS:
-  const SERVICE_ID = 'service_l6bfpvh';
-  const TEMPLATE_ID = 'template_mag38x5';
-  const PUBLIC_KEY = 'H6rZYJmbLRjQYoXTr';
+  const SERVICE_ID = 'service_zzfb4re';
+  const TEMPLATE_ID = 'template_3zoykto';
+  const PUBLIC_KEY = 'e5LCw55uDWgL7AxQA';
 
   const handleSubmit = (e) => {
     e.preventDefault();
