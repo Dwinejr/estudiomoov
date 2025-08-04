@@ -51,7 +51,7 @@ function GradeHorarios() {
       horario: '18h30',
       segunda: 'Pole',
       terca: 'Acrobacia de Solo / Pole',
-      quarta: '',
+      quarta: 'Jazz Funk',
       quinta: 'Tecido / Pole',
       sexta: 'Circo (Aéreos)',
       sabado: ''

@@ -91,7 +91,7 @@ function Professoras({ openHorariosModal }) {
           <div className="bg-[#1E1E1E] rounded-lg overflow-hidden shadow-xl border-2 border-[#E4670D]">
             <div className="aspect-w-1 aspect-h-1">
               <img
-                src={getAssetPath('/assets/karen.jpg')}
+                src={getAssetPath('/assets/karen04.jpg')}
                 alt="Karen Lima"
                 className="object-cover w-full h-full"
               />
