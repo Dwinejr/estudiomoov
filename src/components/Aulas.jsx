@@ -204,7 +204,7 @@ As aulas de alongamento e flexibilidade (flex fit) deixam o corpo todo mais apto
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center mt-6">
               <button
-                onClick={() => handleModalOpen('/assets/alongamento-vestir.png')}
+                onClick={() => handleModalOpen('/assets/jazzfunk-vestir.png')}
                 className="bg-[#E4670D] hover:bg-[#2A2A2A] text-white font-bold py-3 px-8 rounded-md transition duration-300 shadow-md border border-[#E4670D]"
               >
                 O Que Vestir?
