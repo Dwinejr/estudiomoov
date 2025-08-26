@@ -27,7 +27,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsShowModalOpen(true);
-    }, 2000); // Abre após 2 segundos do carregamento
+    }, 500); // Abre após 0.5 segundos do carregamento
 
     return () => clearTimeout(timer);
   }, []);
