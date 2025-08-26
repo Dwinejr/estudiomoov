@@ -1,4 +1,4 @@
-import React, { useState, createContext } from 'react';
+import React, { useState, createContext, useEffect } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Sobre from './components/Sobre';
@@ -21,7 +21,17 @@ function App() {
   const [professoraSelecionada, setProfessoraSelecionada] = useState('');
   const [horariosSelecionados, setHorariosSelecionados] = useState({});
   const [videoLoaded, setVideoLoaded] = useState(false);
+  const [isShowModalOpen, setIsShowModalOpen] = useState(false);
   
+  // Abrir modal do espetáculo automaticamente quando o site carrega
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsShowModalOpen(true);
+    }, 2000); // Abre após 2 segundos do carregamento
+
+    return () => clearTimeout(timer);
+  }, []);
+
   const openModal = (imagePath) => {
     setModalImage(getAssetPath(imagePath));
     setIsModalOpen(true);
@@ -40,6 +50,8 @@ function App() {
     setProfessoraSelecionada('');
     setHorariosSelecionados({});
   };
+
+  const closeShowModal = () => setIsShowModalOpen(false);
 
   return (
     <VideoBackgroundLoadedContext.Provider value={videoLoaded}>
@@ -210,6 +222,60 @@ function App() {
                     </svg>
                     Agendar Aula
                   </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Modal do Espetáculo Alice */}
+        {isShowModalOpen && (
+          <div className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-[9999] p-4">
+            <div className="relative bg-[#1E1E1E] rounded-lg shadow-2xl max-w-xl w-full border border-[#E4670D]">
+              <button
+                onClick={closeShowModal}
+                className="absolute top-2 right-2 text-[#E4670D] hover:text-white text-2xl font-bold focus:outline-none transition-colors duration-300 z-10"
+                aria-label="Fechar"
+              >
+                ×
+              </button>
+              
+              <div className="p-5 text-center">
+                <h2 className="text-3xl font-bold mb-3 text-[#E4670D]">
+                  🎭 Alice Madness
+                </h2>
+                <h3 className="text-xl font-semibold mb-4 text-white">
+                  Circo e Dança
+                </h3>
+                
+                <div className="mb-4">
+                  <img
+                    src={getAssetPath('/assets/aliceTeaser.jpg')}
+                    alt="Alice Madness - Espetáculo de Circo e Dança"
+                    className="w-full h-auto rounded-lg shadow-lg max-h-64 object-cover"
+                  />
+                </div>
+                
+                <p className="text-base mb-5 text-gray-300">
+                  Venha se encantar com nosso espetáculo que une circo e dança em uma experiência única e mágica!
+                </p>
+                
+                <div className="space-y-3">
+                  <a
+                    href="https://www.sympla.com.br/evento/alice-madness-circo-e-danca/3069530"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-[#E4670D] hover:bg-[#2A2A2A] text-white font-bold py-3 px-7 rounded-md transition duration-300 shadow-md flex items-center justify-center border border-[#E4670D] mx-auto w-fit text-lg"
+                  >
+                    🎫 Comprar Ingressos
+                  </a>
+                  
+                  <button
+                    onClick={closeShowModal}
+                    className="bg-transparent hover:bg-[#E4670D] text-[#E4670D] hover:text-white font-bold py-2 px-5 rounded-md transition duration-300 border border-[#E4670D] mx-auto w-fit text-base"
+                  >
+                    Ver depois
+                  </button>
                 </div>
               </div>
             </div>
