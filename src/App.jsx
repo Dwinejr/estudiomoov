@@ -80,7 +80,7 @@ function App() {
                 className="absolute inset-0 w-full h-full object-cover"
                 style={{ opacity: videoLoaded ? 1 : 0, transition: 'opacity 0.5s' }}
               >
-                <source src={getAssetPath('/assets/background.mp4')} type="video/mp4" />
+                <source src={getAssetPath('/assets/background02.mp4')} type="video/mp4" />
               </video>
             </div>
             
