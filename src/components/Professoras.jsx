@@ -75,6 +75,16 @@ function Professoras({ openHorariosModal }) {
         { horario: '09:00', nome: 'Circo Infantil' },
         { horario: '10:00', nome: 'Circo Infantil' }
       ]
+    },
+    'Kadu Godoi': {
+      segunda: [],
+      terca: [],
+      quarta: [
+        { horario: '18:30', nome: 'Jazz Funk' }
+      ],
+      quinta: [],
+      sexta: [],
+      sabado: []
     }
   };
 
@@ -85,7 +95,7 @@ function Professoras({ openHorariosModal }) {
   return (
     <section id="professoras" className="py-16 px-4 md:px-8 bg-[#121212]">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-4xl font-bold mb-12 text-center text-[#E4670D] pt-8">Nossas Professoras</h2>
+        <h2 className="text-4xl font-bold mb-12 text-center text-[#E4670D] pt-8">Nossos Professores</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Karen Lima */}
           <div className="bg-[#1E1E1E] rounded-lg overflow-hidden shadow-xl border-2 border-[#E4670D]">
@@ -179,6 +189,30 @@ function Professoras({ openHorariosModal }) {
               </button>
               <p className="text-gray-300">
                 Bárbara Medeiros é instrutora de Pole Dance há mais de 8 anos, com uma trajetória marcada pela paixão pelo movimento, pela dança e pela expressão corporal. Encantada pelo universo do Pole Coreo, traz para suas aulas uma proposta que une técnica, musicalidade e fluidez. Seu objetivo é proporcionar um espaço onde cada aluna possa explorar seu próprio estilo, se desafiar e se divertir através da dança no pole.
+              </p>
+            </div>
+          </div>
+
+          {/* Kadu Godoi */}
+          <div className="bg-[#1E1E1E] rounded-lg overflow-hidden shadow-xl border-2 border-[#E4670D]">
+            <div className="aspect-w-1 aspect-h-1">
+              <img
+                src={getAssetPath('/assets/kadu.jpg')}
+                alt="Kadu Godoi"
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="p-6">
+              <h3 className="text-2xl font-bold mb-2 text-[#E4670D]">Kadu Godoi</h3>
+              <p className="text-[#E4670D] font-semibold mb-4">Jazz Funk</p>
+              <button
+                onClick={() => abrirModal('Kadu Godoi')}
+                className="bg-[#E4670D] hover:bg-[#2A2A2A] text-white font-bold py-2 px-6 rounded-md transition duration-300 shadow-md border border-[#E4670D] w-full mb-4"
+              >
+                Ver Horários
+              </button>
+              <p className="text-gray-300">
+                Kadu Godoi é professor, coreógrafo e dançarino. Com uma trajetória marcada pela dedicação e criatividade, Kadu alia técnica, ousadia e sensibilidade artística para transformar cada aula de Jazz Funk em uma experiência única.
               </p>
             </div>
           </div>

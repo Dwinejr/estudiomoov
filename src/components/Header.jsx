@@ -20,7 +20,7 @@ function Header() {
       {/* Desktop Navigation */}
       <nav className="hidden md:flex space-x-6">
         <a href="#sobre" className="hover:text-[#2A2A2A] uppercase font-semibold transition-colors duration-300">Sobre</a>
-        <a href="#professoras" className="hover:text-[#2A2A2A] uppercase font-semibold transition-colors duration-300">Professoras</a>
+        <a href="#professoras" className="hover:text-[#2A2A2A] uppercase font-semibold transition-colors duration-300">Professores</a>
         <a href="#espaco" className="hover:text-[#2A2A2A] uppercase font-semibold transition-colors duration-300">O Espaço</a>
         <a href="#empresas" className="hover:text-[#2A2A2A] uppercase font-semibold transition-colors duration-300">Empresas</a>
         <a href="#aulas" className="hover:text-[#2A2A2A] uppercase font-semibold transition-colors duration-300">Aulas</a>
@@ -66,7 +66,7 @@ function Header() {
         <div className="md:hidden absolute top-full left-0 right-0 bg-[#E4670D] bg-opacity-95 p-4 border-b border-white">
           <nav className="flex flex-col space-y-4">
             <a href="#sobre" onClick={toggleMobileMenu} className="hover:text-[#2A2A2A] uppercase font-semibold text-center transition-colors duration-300">Sobre</a>
-            <a href="#professoras" onClick={toggleMobileMenu} className="hover:text-[#2A2A2A] uppercase font-semibold text-center transition-colors duration-300">Professoras</a>
+            <a href="#professoras" onClick={toggleMobileMenu} className="hover:text-[#2A2A2A] uppercase font-semibold text-center transition-colors duration-300">Professores</a>
             <a href="#espaco" onClick={toggleMobileMenu} className="hover:text-[#2A2A2A] uppercase font-semibold text-center transition-colors duration-300">O Espaço</a>
             <a href="#empresas" onClick={toggleMobileMenu} className="hover:text-[#2A2A2A] uppercase font-semibold text-center transition-colors duration-300">Empresas</a>
             <a href="#aulas" onClick={toggleMobileMenu} className="hover:text-[#2A2A2A] uppercase font-semibold text-center transition-colors duration-300">Aulas</a>
