@@ -6,7 +6,7 @@ function Professoras({ openHorariosModal }) {
   const horariosProfessoras = {
     'Karen Lima': {
       segunda: [
-        { horario: '18:30', nome: 'Pole Fit' }
+        { horario: '18:30', nome: 'Pole Fit' },
         { horario: '19:30', nome: 'Pole Coreo' }
       ],
       terca: [
