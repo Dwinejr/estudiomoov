@@ -7,6 +7,7 @@ function Professoras({ openHorariosModal }) {
     'Karen Lima': {
       segunda: [
         { horario: '18:30', nome: 'Pole Fit' }
+        { horario: '19:30', nome: 'Pole Coreo' }
       ],
       terca: [
         { horario: '18:30', nome: 'Pole Fit' },
@@ -28,7 +29,7 @@ function Professoras({ openHorariosModal }) {
     },
     'Bárbara Medeiros': {
       segunda: [
-        { horario: '19:30', nome: 'Pole Fit' }
+        { horario: '20:30', nome: 'Pole Coreo' }
       ],
       terca: [],
       quarta: [],
