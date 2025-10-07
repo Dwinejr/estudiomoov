@@ -5,7 +5,7 @@ function Valores() {
     <section id="valores" className="py-16 px-4 md:px-8 bg-[#121212]">
       <div className="container mx-auto max-w-4xl text-center">
         <h2 className="text-4xl font-bold text-[#E4670D] mb-8 pt-8">Valores</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-3xl mx-auto">
           {/* Modalidades */}
           <div className="bg-[#1E1E1E] p-6 rounded-lg shadow-md border-2 border-[#E4670D] flex flex-col justify-center">
             <h3 className="text-xl font-semibold text-[#E4670D] mb-4">Modalidades Oferecidas</h3>
@@ -32,24 +32,6 @@ function Valores() {
                 <tr><td className="py-1">6 aulas/mês</td><td className="py-1 text-right">R$205</td></tr>
                 <tr><td className="py-1">8 aulas/mês</td><td className="py-1 text-right">R$260</td></tr>
                 <tr><td className="py-1">12 aulas/mês</td><td className="py-1 text-right">R$340</td></tr>
-              </tbody>
-            </table>
-          </div>
-          {/* Pacote VIP */}
-          <div className="bg-[#1E1E1E] p-6 rounded-lg shadow-md border-2 border-[#E4670D] flex flex-col justify-center">
-            <h3 className="text-xl font-semibold text-[#E4670D] mb-4 flex items-center justify-center">Pacote VIP  <span className="ml-2 text-base font-normal">(aula individual)</span></h3>
-            <table className="w-full text-left text-gray-300">
-              <thead>
-                <tr>
-                  <th className="pb-2">Aulas/Mês</th>
-                  <th className="pb-2 text-right">Valor</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr><td className="py-1">4 aulas/mês</td><td className="py-1 text-right">R$320</td></tr>
-                <tr><td className="py-1">6 aulas/mês</td><td className="py-1 text-right">R$460</td></tr>
-                <tr><td className="py-1">8 aulas/mês</td><td className="py-1 text-right">R$580</td></tr>
-              
               </tbody>
             </table>
           </div>
