@@ -48,20 +48,47 @@ function GradeHorarios() {
       sabado: 'Pole'
     },
     {
+      horario: '18h00',
+      segunda: '',
+      terca: '',
+      quarta: 'Pole Heels',
+      quinta: '',
+      sexta: '',
+      sabado: ''
+    },
+    {
       horario: '18h30',
       segunda: 'Pole',
-      terca: 'Acrobacia de Solo / Pole',
-      quarta: 'Jazz Funk',
+      terca: 'Acrobacia de Solo',
+      quarta: '',
       quinta: 'Tecido / Pole',
       sexta: 'Circo (Aéreos)',
+      sabado: ''
+    },
+    {
+      horario: '19h00',
+      segunda: '',
+      terca: '',
+      quarta: 'Jazz Funk',
+      quinta: '',
+      sexta: '',
       sabado: ''
     },
     {
       horario: '19h30',
       segunda: 'Pole Coreo',
       terca: 'Tecido / Pole',
-      quarta: 'Pole',
+      quarta: '',
       quinta: 'Lira e Trapézio / Pole Fit',
+      sexta: '',
+      sabado: ''
+    },
+    {
+      horario: '20h00',
+      segunda: '',
+      terca: '',
+      quarta: 'Pole',
+      quinta: '',
       sexta: '',
       sabado: ''
     },
@@ -69,7 +96,7 @@ function GradeHorarios() {
       horario: '20h30',
       segunda: 'Pole Coreo',
       terca: 'Flex',
-      quarta: 'Pole Heels',
+      quarta: '',
       quinta: 'Flex',
       sexta: '',
       sabado: ''

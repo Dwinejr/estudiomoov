@@ -10,12 +10,11 @@ function Professoras({ openHorariosModal }) {
         { horario: '19:30', nome: 'Pole Coreo' }
       ],
       terca: [
-        { horario: '18:30', nome: 'Pole Fit' },
         { horario: '19:30', nome: 'Pole Fit' }
       ],
       quarta: [
-        { horario: '19:30', nome: 'Pole Fit' },
-        { horario: '20:30', nome: 'Pole Heels' }
+        { horario: '18:00', nome: 'Pole Heels' },
+        { horario: '20:00', nome: 'Pole Fit' }
       ],
       quinta: [
         { horario: '18:30', nome: 'Pole Fit' },
@@ -81,7 +80,7 @@ function Professoras({ openHorariosModal }) {
       segunda: [],
       terca: [],
       quarta: [
-        { horario: '18:30', nome: 'Jazz Funk' }
+        { horario: '19:00', nome: 'Jazz Funk' }
       ],
       quinta: [],
       sexta: [],
