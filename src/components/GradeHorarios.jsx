@@ -62,7 +62,7 @@ function GradeHorarios() {
       terca: 'Acrobacia de Solo',
       quarta: '',
       quinta: 'Tecido / Pole',
-      sexta: 'Circo (Aéreos)',
+      sexta: '',
       sabado: ''
     },
     {
@@ -87,7 +87,7 @@ function GradeHorarios() {
       horario: '20h00',
       segunda: '',
       terca: '',
-      quarta: 'Pole',
+      quarta: 'Circo (Aéreos) / Pole',
       quinta: '',
       sexta: '',
       sabado: ''
@@ -129,7 +129,7 @@ function GradeHorarios() {
   return (
     <section id="grade-horarios" className="py-16 px-4 md:px-8 bg-[#121212]">
       <div className="container mx-auto max-w-6xl text-center">
-        <h2 className="text-4xl font-bold mb-4 text-[#E4670D] pt-8">Grade de Horários 2025</h2>
+        <h2 className="text-4xl font-bold mb-4 text-[#E4670D] pt-8">Grade de Horários 2026</h2>
         <p className="text-lg mb-12 text-gray-300">
           Confira nossos horários de aulas e encontre o momento perfeito para você se conectar com o universo MOOV.
         </p>

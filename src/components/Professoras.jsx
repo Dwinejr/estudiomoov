@@ -59,7 +59,9 @@ function Professoras({ openHorariosModal }) {
         { horario: '19:30', nome: 'Lira e Trapézio' },
         { horario: '20:30', nome: 'Flex' }
       ],
-      quarta: [],
+      quarta: [
+        { horario: '20:00', nome: 'Circo (Aéreos)' }
+      ],
       quinta: [
         { horario: '08:00', nome: 'Treinamento Funcional' },
         { horario: '18:30', nome: 'Tecido' },
@@ -67,8 +69,7 @@ function Professoras({ openHorariosModal }) {
         { horario: '20:30', nome: 'Flex' }
       ],
       sexta: [
-        { horario: '18:30', nome: 'Treinamento Funcional' },
-        { horario: '19:30', nome: 'Circo (Aéreos)' }
+        { horario: '18:30', nome: 'Treinamento Funcional' }
       ],
       sabado: [
         { horario: '08:00', nome: 'Circo (Aéreos)' },
