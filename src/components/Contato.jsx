@@ -29,6 +29,7 @@ function Contato() {
           <div className="space-y-6 text-gray-300">
             <div>
               <h3 className="text-2xl font-semibold mb-3 text-[#E4670D]">MOOV CIRCO E DANÇA</h3>
+              <p>Rua Espanha, 75 - Vila Santa Maria, Americana/SP</p>
               <p>Telefone: (19) 3645-0210</p>
               <p>Email: atendimento@estudiomoov.com.br</p>
             </div>
@@ -36,7 +37,7 @@ function Contato() {
             <div className="h-64 bg-[#1E1E1E] rounded-lg overflow-hidden border-2 border-[#E4670D] shadow">
               <iframe
                 title="Mapa Estúdio Moov"
-                src="https://www.google.com/maps?q=Av.+S%C3%A3o+Paulo+864,+Santa+B%C3%A1rbara+d%27Oeste,+SP,+13454-060&output=embed"
+                src="https://www.google.com/maps?q=Rua+Espanha,+75+-+Vila+Santa+Maria,+Americana,+SP&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

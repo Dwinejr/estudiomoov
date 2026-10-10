@@ -8,8 +8,8 @@ function Footer() {
           {/* Contato */}
           <div>
             <h3 className="text-xl font-bold mb-4 text-[#E4670D]">Contato</h3>
-            <p className="mb-2">Av. São Paulo, 864 (Sobreloja)</p>
-            <p className="mb-2">Santa Bárbara d'Oeste - SP</p>
+            <p className="mb-2">Rua Espanha, 75 - Vila Santa Maria</p>
+            <p className="mb-2">Americana/SP</p>
             <p className="mb-2">(19) 3645-0210</p>
           </div>
 
