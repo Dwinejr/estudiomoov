@@ -26,19 +26,6 @@ function Professoras({ openHorariosModal }) {
         { horario: '15:00', nome: 'Pole Fit' }
       ]
     },
-    'Bárbara Medeiros': {
-      segunda: [
-        { horario: '20:30', nome: 'Pole Coreo' }
-      ],
-      terca: [],
-      quarta: [],
-      quinta: [],
-      sexta: [],
-      sabado: [
-        { horario: '09:00', nome: 'Pole Fit' },
-        { horario: '10:00', nome: 'Pole Fit' }
-      ]
-    },
     'Marília Yasuda': {
       segunda: [
         { horario: '08:00', nome: 'Pole Fit' }
@@ -166,30 +153,6 @@ function Professoras({ openHorariosModal }) {
               </button>
               <p className="text-gray-300">
                 Marília Yasuda é advogada e apaixonada pelo universo do Pole Dance, no qual atua há mais de 10 anos como aluna. Agora, assume também o papel de professora no Moov, unindo sua experiência prática à dedicação em compartilhar conhecimento. Sempre em busca de evolução, acredita que o Pole é uma poderosa ferramenta de desenvolvimento físico, expressão e superação pessoal.
-              </p>
-            </div>
-          </div>
-
-          {/* Bábara Soares */}
-          <div className="bg-[#1E1E1E] rounded-lg overflow-hidden shadow-xl border-2 border-[#E4670D]">
-            <div className="aspect-w-1 aspect-h-1">
-              <img
-                src={getAssetPath('/assets/barbara.jpg')}
-                alt="Bábara Medeiros"
-                className="object-cover w-full h-full"
-              />
-            </div>
-            <div className="p-6">
-              <h3 className="text-2xl font-bold mb-2 text-[#E4670D]">Bárbara Medeiros</h3>
-              <p className="text-[#E4670D] font-semibold mb-4">Pole Dance, Pole Fit, Pole Coreo</p>
-              <button
-                onClick={() => abrirModal('Bárbara Medeiros')}
-                className="bg-[#E4670D] hover:bg-[#2A2A2A] text-white font-bold py-2 px-6 rounded-md transition duration-300 shadow-md border border-[#E4670D] w-full mb-4"
-              >
-                Ver Horários
-              </button>
-              <p className="text-gray-300">
-                Bárbara Medeiros é instrutora de Pole Dance há mais de 8 anos, com uma trajetória marcada pela paixão pelo movimento, pela dança e pela expressão corporal. Encantada pelo universo do Pole Coreo, traz para suas aulas uma proposta que une técnica, musicalidade e fluidez. Seu objetivo é proporcionar um espaço onde cada aluna possa explorar seu próprio estilo, se desafiar e se divertir através da dança no pole.
               </p>
             </div>
           </div>
